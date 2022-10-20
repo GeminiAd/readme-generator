@@ -10,7 +10,7 @@ const licenses = [
     "GNU GPL v3", "GNU GPL v2", "GNU AGPL v3", "GNU LGPL v3", "GNU FDL v1.3", "The Hippocratic License 2.1", "The Hippocratic License 3.0",
     "IBM Public License Version 1.0", "ISC License (ISC)", "The MIT License", "Mozilla Public License 2.0", "Attribution License (BY)",
     "Open Database License (ODbL)", "Public Domain Dedication and License (PDDL)", "The Perl License", "The Artistic License 2.0",
-    "SIL Open Font License 1.1", "The Unlicense", "The Do What the %$#& You Want to Public License"
+    "SIL Open Font License 1.1", "The Unlicense", "The Do What the Fuck You Want to Public License", "The zlib/libpng License"
 ];
 
 /* The list of questions that will be fed into the inquirer prompt. */
@@ -63,7 +63,7 @@ const questions = [
  *  be confusing to anyone reading this code if write to file also generated the markdown text.
  */
 function writeToFile(fileName, data) {
-    fs.writeFile('test.md', data, (err) =>
+    fs.writeFile(fileName, data, (err) =>
         err ? console.error(err) : console.log('README SAVED!')
     );
 }
