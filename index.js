@@ -63,7 +63,7 @@ const questions = [
  *  be confusing to anyone reading this code if write to file also generated the markdown text.
  */
 function writeToFile(fileName, data) {
-    fs.writeFile('log.md', data, (err) =>
+    fs.writeFile('test.md', data, (err) =>
         err ? console.error(err) : console.log('README SAVED!')
     );
 }
