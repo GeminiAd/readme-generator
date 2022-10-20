@@ -132,17 +132,16 @@ const licenses = {
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  console.log("RENDERING LICENSE BADGE: " + license);
 
   if (license === "None") {
-    console.log("NO LICENSE. RETURNING EMPTY STRING");
+    console.log("NO LICENSE DETECTED");
 
     return "";
   } else {
     let licenseBadgeImageLink = renderLicenseImageLink(license);
     let licenseLink = renderLicenseLink(license);
 
-    let markdownBadge = `[![License](${licenseBadgeImageLink})](${licenseLink})`;
+    let markdownBadge = `[![License](${licenseBadgeImageLink})](${licenseLink})\n`;
 
     return markdownBadge;
   }
@@ -186,6 +185,21 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) { }
 
+/*
+ *  Returns the string representing the table of contents 
+ */
+function renderTableOfContents(data) {
+  tableOfContents = "           \n<a href=\"#description\">Description</a> •\n";
+  tableOfContents += "<a href=\"#installation\">Installation</a> •\n";
+  tableOfContents += "<a href=\"#usage\">Usage</a> •\n";
+  tableOfContents += "<a href=\"#contributing\">Contributing</a> •\n";
+  tableOfContents += "<a href=\"#tests\">Tests</a> •\n";
+  tableOfContents += "<a href=\"#license\">License</a> •\n";
+  tableOfContents += "<a href=\"#questions\">Questions</a>\n\n";
+
+  return tableOfContents;
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   console.log(data);
@@ -193,7 +207,14 @@ function generateMarkdown(data) {
   let markdownString = `# ${data.title}\n\n`;
   let badgeString = renderLicenseBadge(data.license);
 
-  markdownString = markdownString + badgeString;
+  markdownString = markdownString + badgeString + "\n";
+
+  let tableOfContentsString = renderTableOfContents(data);
+  markdownString += tableOfContentsString;
+
+  markdownString += `## Description\n\n${data.description}\n\n`;
+
+  markdownString += `## Installation\n\n${data.installation}\n\n`;
 
   return markdownString;
 }

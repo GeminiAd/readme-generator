@@ -19,26 +19,26 @@ const questions = [
         name: "title",
         message: "Enter the title of the project: "
     },
-    /*    {
-            name: "description",
-            message: "Enter a description of the project: "
-        },
-        {
-            name: "installation",
-            message: "Enter installation instructions for the project: "
-        },
-        {
-            name: "usage",
-            message: "Enter usage information for the project: "
-        },
-        {
-            name: "contributing",
-            message: "Enter contribution guidelines for the project: "
-        },
-        {
-            name: "tests",
-            message: "Enter tests for the project: "
-        }, */
+    {
+        name: "description",
+        message: "Enter a description of the project: "
+    },
+    {
+        name: "installation",
+        message: "Enter installation instructions for the project: "
+    },
+    /*            {
+                    name: "usage",
+                    message: "Enter usage information for the project: "
+                },
+                {
+                    name: "contributing",
+                    message: "Enter contribution guidelines for the project: "
+                },
+                {
+                    name: "tests",
+                    message: "Enter tests for the project: "
+                }, */
     {
         type: "list",
         name: "license",
