@@ -1,14 +1,22 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generates a README based on user input when prompted",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Adam Ferro",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeminiAd/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GeminiAd/readme-generator/issues"
+  },
+  "homepage": "https://github.com/GeminiAd/readme-generator#readme",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^8.2.4"
   }
 }
