@@ -85,7 +85,7 @@ function init() {
 
             console.log(toWrite);
 
-            writeToFile("test.md", toWrite);
+            writeToFile("sample.md", toWrite);
         })
         .catch((error) => {
             if (error.isTtyError) {
