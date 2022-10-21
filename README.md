@@ -58,12 +58,13 @@ If no license was chosen in the license prompt, nothing is shown under the heade
 
 ## Usage
 
-- Download the contents of the repository on to your hard drive
+- Download the contents of the repository on to your hard drive.
 - Make sure [node.js](https://nodejs.org/en/) and the npm package manager is installed.
 - Navigate using a command line interface to the directory that this program is in.
 - Install inquirer package version 8.0.0.
 - Type "node index.js" in the command line.
 - Answer the prompts.
+- The README is generated as generated-README.md so as not to conflict with the README.md in the current directory. Copy over the generated-README.md to your project directory and rename it README.md.
 
 ## Technologies Used
 
