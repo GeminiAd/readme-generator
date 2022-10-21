@@ -27,18 +27,18 @@ const questions = [
         name: "installation",
         message: "Enter installation instructions for the project: "
     },
-    /*            {
-                    name: "usage",
-                    message: "Enter usage information for the project: "
-                },
-                {
-                    name: "contributing",
-                    message: "Enter contribution guidelines for the project: "
-                },
-                {
-                    name: "tests",
-                    message: "Enter tests for the project: "
-                }, */
+    {
+        name: "usage",
+        message: "Enter usage information for the project: "
+    },
+    {
+        name: "contributing",
+        message: "Enter contribution guidelines for the project: "
+    },
+    {
+        name: "tests",
+        message: "Enter tests for the project: "
+    },
     {
         type: "list",
         name: "license",
@@ -46,14 +46,14 @@ const questions = [
         choices: licenses,
         loop: false
     },
-    /*    {
-            name: "username",
-            message: "Enter your GitHub username: "
-        },
-        {
-            name: "email",
-            message: "Enter your e-mail address: "
-        } */
+    {
+        name: "github",
+        message: "Enter your GitHub username: "
+    },
+    {
+        name: "email",
+        message: "Enter your e-mail address: "
+    }
 ];
 
 /*
