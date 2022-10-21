@@ -8,6 +8,8 @@
 <a href="#concepts-demonstrated">Concepts Demonstrated</a> •
 <a href="#author">Author</a>
 
+[Video Demo](./demo/README-generator-demo.mp4)
+
 ## Description
 
 This program generates a README after the user answers a series of prompts through the command line using the inquirer package. The answers are then used to generate the README. The series of prompts are:
