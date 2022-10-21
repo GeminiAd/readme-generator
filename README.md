@@ -11,17 +11,46 @@
 
 This program generates a README after the user answers a series of prompts through the command line using the inquirer package. The answers are then used to generate the README. The series of prompts are:
 
-1. "Enter the title of the project:"
-2. "Enter a description of the project:"
-3. "Enter installation instructions for the project:"
-4. "Enter usage information for the project:"
-5. "Enter contribution guidelines for the project:"
-6. "Enter tests for the project:"
-7. "What license do you want?" Then, the user selects a license from a pre-defined list using inquirer.
-8. "Enter your GitHub username: "
-9. "Enter your e-mail address: "
+![Title Prompt](./images/prompt-1.png)                   
+![Description Prompt](./images/prompt-2.png)                  
+![Installation Prompt](./images/prompt-3.png)                 
+![Usage Prompt](./images/prompt-4.png)                 
+![Contributing Prompt](./images/prompt-5.png)               
+![Tests Prompt](./images/prompt-6.png)                
+![License Prompt](./images/prompt-7.png)                 
+![GitHub Username Prompt](./images/prompt-8.png)       
+![E-Mail Address Prompt](./images/prompt-9.png)       
 
-The generated README has the title that the user entered in prompt 1 under the H1 heading at the top of the README. Then, a badge is generated for the license that the user selected in prompt 7 and placed under the title. If no license is selected in prompt 7, no badge is generated or added. Then, a table of contents is generated that links to the Description, Installation, Usage, Contributing, Tests, License, and Questions sections of the generated README. The description section comes below the table of contents, and is an h2 heading with the title of Description (## Description). Under the heading in the description section is the description of the application that the user entered in prompt 2. Under the description section is the installation section, which is an h2 header with the title of Installation (## Installation). In the installation section, under the header is the installation instructions that the user entered in prompt 3. Under the installation section is the usage section, which is an h2 with the title of Usage (## Usage). In the usage section under the usage header is the usage information that the user entered in prompt 4. Under the usage section is the contributing section, which is an h2 header with the title of Contributing (## Contributing). In the contributing section under the header is the contribution guidelines for the project that the user entered in prompt 5. Under the contributing section is the tests section, which is an h2 header with the title of Tests (## Tests). In the tests section under the header are the tests for the application that the user entered in prompt 6. Under the tests section is the license section, which is an h2 header with the title of License (## License). Under the header in the license section is a short note about what license this application is covered under and a link for more information about the license the user chose in prompt 7. If no license was chosen in prompt 7, nothing is shown under the header in the license section. Finally, under the license section is the questions section, which is an h2 header with the title of Questions (## Questions). In the questions section under the header is the note "If you have any questions you can reach me at: ", along with two items: a link to a github profile for the github username that the user entered in prompt 8, and a link to an email address the user provided in prompt 9.
+The generated README has the title that the user entered in the title prompt under the H1 heading at the top of the README:        
+![Generated Title Section](./images/title-section.png)       
+
+Then, a badge is generated for the license that the user selected in the license prompt and placed under the title:               
+![Generated License Badge](./images/license-badge.png)       
+
+If no license is selected in the license prompt, no badge is generated or added.        
+Then, a table of contents is generated with links to the Description, Installation, Usage, Contributing, Tests, License, and Questions sections of the generated README:                       
+![Generated Table of Contents](./images/table-of-contents.png)             
+
+The description section comes below the table of contents, and is an h2 heading with the title of Description (## Description). Under the heading in the description section is the description of the application that the user entered in the description prompt:                    
+![Description Section](./images/description-section.png)          
+
+Under the description section is the installation section, which is an h2 header with the title of Installation (## Installation). In the installation section, under the header is the installation instructions that the user entered in installation prompt:           
+![Installation Section](./images/installation-section.png)          
+
+Under the installation section is the usage section, which is an h2 with the title of Usage (## Usage). In the usage section under the usage header is the usage information that the user entered in the usage prompt:                            
+![Usage Section](./images/usage-section.png)                   
+
+Under the usage section is the contributing section, which is an h2 header with the title of Contributing (## Contributing). In the contributing section under the header is the contribution guidelines for the project that the user entered in the contributing prompt:                
+![Contributing Section](./images/contributing-section.png)                   
+
+Under the contributing section is the tests section, which is an h2 header with the title of Tests (## Tests). In the tests section under the header are the tests for the application that the user entered in the tests prompt:                             
+![Tests Section](./images/tests-section.png)                   
+
+Under the tests section is the license section, which is an h2 header with the title of License (## License). Under the header in the license section is a short note about what license this application is covered under and a link for more information about the license the user chose in the license prompt:                    
+![License Section](./images/license-section.png)                   
+
+If no license was chosen in the license prompt, nothing is shown under the header in the license section. Finally, under the license section is the questions section, which is an h2 header with the title of Questions (## Questions). In the questions section under the header is the note "If you have any questions you can reach me at: "; a link to a github profile for the github username that the user entered in the username prompt; and a mailto link to an email address the user provided in the e-mail prompt:               
+![Questions Section](./images/questions-section.png)                   
 
 ## Key Features
 

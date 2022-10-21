@@ -134,8 +134,6 @@ const licenses = {
 function renderLicenseBadge(license) {
 
   if (license === "None") {
-    console.log("NO LICENSE DETECTED");
-
     return "";
   } else {
     let licenseBadgeImageLink = renderLicenseImageLink(license);
@@ -176,7 +174,6 @@ function renderLicenseLink(license) {
   let licenseLink = licenses[license].licenseLink;
 
   if (license === "None") {
-    console.log("NO LICENSE DETECTED");
     licenseLink = "";
   } else {
     licenseLink = licenses[license].licenseLink;
@@ -217,7 +214,6 @@ function renderTableOfContents(data) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log(data);
 
   let badgeString = renderLicenseBadge(data.license);
   let tableOfContentsString = renderTableOfContents(data);
@@ -245,7 +241,7 @@ ${data.usage}
 
 ${data.contributing}
 
-## Test
+## Tests
 
 ${data.tests}
   
@@ -257,7 +253,7 @@ ${licenseSectionString}
 
 If you have any questions you can reach me at:        
 - [Github](https://github.com/${data.github})
-- [E-Mail](${data.email})
+- [E-Mail](mailto:${data.email})
 `;
 
   return markdownString;
