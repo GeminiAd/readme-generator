@@ -1,3 +1,5 @@
+<base target="_blank">
+
 # README Generator
 
 <a href="#description">Description</a> •
@@ -12,7 +14,7 @@
 
 [Video Demo on YouTube](https://youtu.be/AdBSUeU4BeE)
 
-[Same Demo on GitHub](./demo/README-generator-demo.mp4) (You'll have to download this demo as it's too big to be show by GitHub)
+[Same Demo on GitHub](./demo/README-generator-demo.mp4) (You'll have to download this demo as it's too big to be shown by GitHub)
 
 -------------------------------------------------------
 
