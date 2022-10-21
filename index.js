@@ -83,7 +83,7 @@ function init() {
         .then((answers) => {
             let toWrite = generateMarkdown(answers);
 
-            writeToFile("sample.md", toWrite);
+            writeToFile("generated-README.md", toWrite);
         })
         .catch((error) => {
             if (error.isTtyError) {
