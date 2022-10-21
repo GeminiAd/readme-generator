@@ -16,11 +16,11 @@ This is just a sample project
   
 ## Installation
   
-To install, download the contents of this to your hard drive, navigate to the hard drive in a terminal window, and type node index.js
+To install, clone this repository down to do your hard drive. Navigate to the directory that the repository is saved to in a terminal window, and type "npm install" to install the dependencies.
  
 ## Usage
   
-Answer the prompts and a README is generated
+After intallation, navigate to the directory this repository was saved to in a terminal window and type "node index.js". Answer the prompts, and a readme is generated as generated-README.md.
  
 ## Contributing
 

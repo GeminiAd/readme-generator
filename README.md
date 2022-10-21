@@ -2,6 +2,7 @@
 
 <a href="#description">Description</a> •
 <a href="#key-features">Key Features</a> •
+<a href="#installation">Installation</a> •
 <a href="#usage">Usage</a> •
 <a href="#technologies-used">Technologies Used</a> •
 <a href="#concepts-demonstrated">Concepts Demonstrated</a> •
@@ -56,13 +57,16 @@ If no license was chosen in the license prompt, nothing is shown under the heade
 
 - Generate a README with a license badge, table of contents, clearly defined sectional content, and a link the user's github repository and email address.
 
+## Installation
+
+- Clone this repository down to your hard drive.
+- Make sure [node.js](https://nodejs.org/en/) and the npm package manager are both installed
+- Navigate to the directory that you cloned the repo down to and type `npm install` to install all dependencies.
+
 ## Usage
 
-- Download the contents of the repository on to your hard drive.
-- Make sure [node.js](https://nodejs.org/en/) and the npm package manager is installed.
-- Navigate using a command line interface to the directory that this program is in.
-- Install inquirer package version 8.0.0.
-- Type "node index.js" in the command line.
+- Navigate using a command line interface to the directory the repo was cloned into in the installation step.
+- Type `node index.js` in the command line.
 - Answer the prompts.
 - The README is generated as generated-README.md so as not to conflict with the README.md in the current directory. Copy over the generated-README.md to your project directory and rename it README.md.
 
