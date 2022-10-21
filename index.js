@@ -54,7 +54,7 @@ const questions = [
  */
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-        err ? console.error(err) : console.log('README SAVED!')
+        err ? console.error(err) : console.log('README saved as generated-README.md!')
     );
 }
 
