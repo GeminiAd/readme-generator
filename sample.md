@@ -26,7 +26,7 @@ Answer the prompts and a README is generated
 
 We are not accepting contributions at this point
 
-## Test
+## Tests
 
 No Tests
   
@@ -39,4 +39,4 @@ This application is covered under the license:
 
 If you have any questions you can reach me at:        
 - [Github](https://github.com/GeminiAd)
-- [E-Mail](poop@poop.com)
+- [E-Mail](mailto:poop@poop.com)

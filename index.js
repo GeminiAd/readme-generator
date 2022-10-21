@@ -83,8 +83,6 @@ function init() {
         .then((answers) => {
             let toWrite = generateMarkdown(answers);
 
-            console.log(toWrite);
-
             writeToFile("sample.md", toWrite);
         })
         .catch((error) => {
