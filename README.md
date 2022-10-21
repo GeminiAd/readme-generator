@@ -8,7 +8,13 @@
 <a href="#concepts-demonstrated">Concepts Demonstrated</a> •
 <a href="#author">Author</a>
 
-[Video Demo](./demo/README-generator-demo.mp4)
+-------------------------------------------------------
+
+[Video Demo on YouTube](https://youtu.be/AdBSUeU4BeE)
+
+[Same Demo on GitHub](./demo/README-generator-demo.mp4) (You'll have to download this demo as it's too big to be show by GitHub)
+
+-------------------------------------------------------
 
 ## Description
 
@@ -62,7 +68,7 @@ If no license was chosen in the license prompt, nothing is shown under the heade
 ## Installation
 
 - Clone this repository down to your hard drive.
-- Make sure [node.js](https://nodejs.org/en/) and the npm package manager are both installed
+- Make sure [node.js](https://nodejs.org/en/) and the npm package manager are both installed.
 - Navigate to the directory that you cloned the repo down to and type `npm install` to install all dependencies.
 
 ## Usage
