@@ -63,20 +63,24 @@ function writeToFile(fileName, data) {
  *  
  *  When we initialize the app we must:
  *      1. Prompt the user with the questions to generate the README.
- *      2. Generate README markdown text.
- *      2. Write the text into a markdown file.
- *      3. Possibly do something if the prompt fails.
+ *      2. Generate README markdown text with the answers.
+ *      3. Write the text into a markdown file.
+ *      4. Possibly do something if the prompt fails?
  */
 function init() {
 
     inquirer
+        /* 1. Prompt the user with the questions to generate the README. */
         .prompt(questions)
         .then((answers) => {
+            /* 2. Generate README markdown text with the answers. */
             let toWrite = generateMarkdown(answers);
 
+            /* 3. Write the text into a markdown file. */
             writeToFile("generated-README.md", toWrite);
         })
         .catch((error) => {
+            /* 4. Possibly do something if the prompt fails? */
             if (error.isTtyError) {
                 // Prompt couldn't be rendered in the current environment
             } else {

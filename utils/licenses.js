@@ -1,4 +1,11 @@
-/* The list of licenses, with links to the license badge image and license description. */
+/* 
+ *  The list of licenses, with links to the license badge image and license description. 
+ *  I used switch statements at first to render the license badge, but that was too many lines of code.
+ *  I thought it best to just have an object that maps the license name to the license badge image link and
+ *  license description link so I can easily grab these values. Also, the keys in this object can be used
+ *  to tell inquirer which license choices they have so I don't have to have all these different arrays with license
+ *  information in all of these files. I'm trying to centralize this information so I don't repeat it.
+ */
 const licenses = {
     "None": {
         licenseImageLink: "",
