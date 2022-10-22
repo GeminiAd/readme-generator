@@ -96,9 +96,7 @@ If no license was chosen in the license prompt, nothing is shown under the heade
 
 ## Credits
 
-Credit goes to lukas-h on github for a list of markdown badges:                       
-- [List of Markdown Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)                      
-- [lunkas-h on GitHub](https://github.com/lukas-h)                       
+Credit goes to [lukas-h](https://github.com/lukas-h) on GitHub for a [list of markdown badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba).       
 
 ## Author
 
