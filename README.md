@@ -8,6 +8,7 @@
 <a href="#usage">Usage</a> •
 <a href="#technologies-used">Technologies Used</a> •
 <a href="#concepts-demonstrated">Concepts Demonstrated</a> •
+<a href="#credits">Credits</a> •
 <a href="#author">Author</a>
 
 -------------------------------------------------------
@@ -92,6 +93,12 @@ If no license was chosen in the license prompt, nothing is shown under the heade
 - Installing and using node.js packages using npm.
 - Writing to a file using JavaScript.
 - General JavaScript and programming knowledge.
+
+## Credits
+
+Credit goes to lukas-h on github for a list of markdown badges:                       
+- [List of Markdown Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)                      
+- [lunkas-h on GitHub](https://github.com/lukas-h)                       
 
 ## Author
 
